@@ -1,0 +1,8 @@
+<p>
+  <button type="button" (click)="showPDF()">Show PDF</button>
+</p>
+
+<div *ngIf="fileUrl">
+  <a [href]="fileUrl" target="_blank" download="example.pdf">Download</a><br />
+  <object [data]="fileUrl" type="application/pdf" width="100%" height="400"></object>
+</div>

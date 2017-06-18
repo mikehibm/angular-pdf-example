@@ -4,5 +4,6 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  PDF_URL: 'https://mikehibm.github.io/angular-pdf-example/assets/sample2.pdf'
 };
