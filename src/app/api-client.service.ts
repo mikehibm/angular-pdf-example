@@ -18,7 +18,6 @@ export class ApiClientService {
         const blob = response.blob();
         return new Blob([blob], { type: 'application/pdf' });
       });
-    ;
   }
 
 }
